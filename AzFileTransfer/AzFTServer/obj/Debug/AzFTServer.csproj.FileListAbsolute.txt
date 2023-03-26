@@ -1,0 +1,7 @@
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\bin\AzFTServer.dll.config
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\bin\AzFTServer.dll
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\bin\AzFTServer.pdb
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\obj\Debug\AzFTServer.csproj.AssemblyReference.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\obj\Debug\AzFTServer.csproj.CoreCompileInputs.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\obj\Debug\AzFTServer.dll
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFTServer\obj\Debug\AzFTServer.pdb

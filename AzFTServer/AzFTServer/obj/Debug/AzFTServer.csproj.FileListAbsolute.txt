@@ -1,0 +1,17 @@
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\bin\Debug\AzFTServer.exe.config
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\bin\Debug\AzFTServer.exe
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\bin\Debug\AzFTServer.pdb
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.csproj.AssemblyReference.cache
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.csproj.SuggestedBindingRedirects.cache
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\MainWindow.g.cs
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\App.g.cs
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer_MarkupCompile.cache
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer_MarkupCompile.lref
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\App.baml
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\MainWindow.baml
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.g.resources
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.Properties.Resources.resources
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.csproj.GenerateResource.cache
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.csproj.CoreCompileInputs.cache
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.exe
+C:\Users\jovy-\source\repos\AzFTServer\AzFTServer\obj\Debug\AzFTServer.pdb

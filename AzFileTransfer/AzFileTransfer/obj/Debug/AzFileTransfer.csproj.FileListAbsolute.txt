@@ -1,0 +1,16 @@
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\bin\Debug\AzFileTransfer.exe.config
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\bin\Debug\AzFileTransfer.exe
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\bin\Debug\AzFileTransfer.pdb
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.csproj.AssemblyReference.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.csproj.SuggestedBindingRedirects.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\MainWindow.g.cs
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\App.g.cs
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer_MarkupCompile.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer_MarkupCompile.lref
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\MainWindow.baml
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.g.resources
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.Properties.Resources.resources
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.csproj.GenerateResource.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.csproj.CoreCompileInputs.cache
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.exe
+C:\Users\jovy-\source\repos\AzFileTransfer\AzFileTransfer\obj\Debug\AzFileTransfer.pdb

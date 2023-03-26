@@ -1,0 +1,69 @@
+﻿<Window x:Class="AzFileTransfer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AzFileTransfer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Content="服务端文件列表" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        <ScrollViewer Grid.Row="1" Grid.Column="0" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
+            <DataGrid  Name="ServerFileList" SelectionMode="Single"  AutoGenerateColumns="False" SelectionChanged ="dgSC_click">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="文件名" Binding="{Binding Name}"/>
+                    <DataGridTextColumn Header="大小" Binding="{Binding Length}"/>
+                    <DataGridTextColumn Header="修改日期" Binding="{Binding LastWriteTime}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </ScrollViewer>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Orientation="Horizontal" Margin="5">
+            <Button  Content="选择上传" VerticalAlignment="Center" Click="btnSelectUpLoad_click"/>
+            <Button  Content="确认上传" VerticalAlignment="Center" Click="btnUpload_click"/>
+            <Button  Content="下载" VerticalAlignment="Center" Click="btnDownload_click" />
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Margin="5">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="文件路径 : "></TextBlock>
+                <TextBlock Name="tbFilePathInfo">C:\Users\jovy-\source\FSFileDownLoad\test.rar</TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,10">
+                <TextBlock Text="状态 :       "></TextBlock>
+                <TextBlock Name="tbFileStates" Foreground="Blue"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,2">
+                <TextBlock Text="文件大小 :         "></TextBlock>
+                <TextBlock Name="tbFileSize"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,2">
+                <TextBlock Text="已经完成 :         "></TextBlock>
+                <TextBlock Name="tbCurrent"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,2">
+                <TextBlock Text="传输速度 :         "></TextBlock>
+                <TextBlock Name="tbSpeed"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,2">
+                <TextBlock Text="剩余时间 :         "></TextBlock>
+                <TextBlock Name="tbTime"></TextBlock>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,2">
+                <TextBlock Text="能否续传 :         "></TextBlock>
+                <TextBlock Name="tbCanGO"></TextBlock>
+            </StackPanel>
+            <ProgressBar Name="ProBar" Value="0" Maximum="100" Height="15" Margin="0,5"/>
+            <ScrollViewer>
+                <TextBlock Name="tbMesg" Height="200"></TextBlock>
+            </ScrollViewer>
+        </StackPanel>
+    </Grid>
+</Window>
